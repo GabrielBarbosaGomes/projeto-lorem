@@ -1,0 +1,25 @@
+.paragraph {
+    color: #a8a8a8;
+    font-weight: 100;
+    padding: 48px 24px;
+}
+
+.paragraph p{
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+@media (min-width: 1024px){
+    .padding-container{
+        padding-left: calc((100% - 1200px) / 2);
+        padding-right: calc((100% - 1200px) / 2);
+    }
+
+    .paragraph p {
+        font-size: 18px;
+    }
+
+    .secundparagraph {
+        font-size: 22px;
+    }
+}

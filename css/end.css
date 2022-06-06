@@ -1,0 +1,34 @@
+.end .imgend{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.end .imgend .imageend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end .imgend .imageend img{
+    width: 76px;
+    height: auto;
+}
+
+.end .imgend .imageend .imgone {
+    width: 30px;
+    height: auto;
+}
+
+.end p {
+    font-size: 12px;
+    color: rgba(168, 168, 168, .7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1024px){
+    .imgend {
+        justify-content: center;
+    }
+}

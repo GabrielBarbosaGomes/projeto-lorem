@@ -1,0 +1,64 @@
+
+.targetarrow p {
+    color: #a8a8a8;
+    font-size: 14px;
+    padding: 25px 0;
+}
+
+.targetarrow .arrow {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+    padding: 8px 8px;
+    
+}
+
+.targetarrow .arrow p {
+    font-size: 10px;
+    color: white;
+    text-align: left;
+}
+
+.targetarrow .arrow img {
+    width: 50px;
+    height: auto;
+    padding: 0px 7px;
+}
+
+.targetarrow .arrowone {
+    background-color: rgb(20, 20, 216);
+}
+
+.targetarrow .arrowtwo {
+    background-color: rgba(26, 26, 119, 0.959);
+}
+
+.targetarrow .arrowthree {
+    background-color: rgba(35, 144, 35, 0.835);
+}
+
+.targetarrow .arrowfour {
+    background-color: rgba(221, 26, 26, 0.76);
+}
+
+.targetarrow .arrowfive {
+    background-color: rgba(119, 14, 119, 0.856);
+}
+
+.targetarrow .arrowsix {
+    background-color: rgba(0, 217, 255, 0.904);
+}
+
+@media (min-width: 1024px){
+    .alingarrow{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .targetarrow .arrow{
+        margin: 10px 8px;
+        width: 47%;
+        display: flex;
+    }
+}

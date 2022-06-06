@@ -1,0 +1,41 @@
+.padding-container {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(18, 107, 209);
+    text-align: center;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: -14px;
+}
+
+p {
+    text-align: center;
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 1440px) {
+    .padding-container{
+        padding-left: calc((100% - 1200px) / 2);
+        padding-right: calc((100% - 1200px) / 2);
+    }
+}

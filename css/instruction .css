@@ -1,0 +1,138 @@
+
+.instruction h2{
+    padding-top: 25px;
+}
+
+.instruction .instructionindiv h3{
+    color: rgba(65, 209, 21, 0.719);
+    padding: 15px 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.instruction .instructionindiv p{
+    font-size: 10px;
+    color: #a8a8a8;
+    text-align: left;
+}
+
+.instruction .instructionindiv .instructionposition {
+    display: flex;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    align-items: center;
+    padding: 8px 8px;
+}
+
+.instruction .instructionindiv .instructionposition img {
+    width: 29px;
+    height: auto;
+    padding: 14px 15px;
+    border-radius: 131px;
+    
+}
+
+.instruction .instructionindiv .instructionpositiongreen img{
+    background-color: rgba(65, 209, 21, 0.719);
+}
+
+.instruction .instructionindiv .instructionpositionblue img{
+    background-color: rgba(0, 153, 255, 0.849);
+    padding: 11px 15px
+}
+
+.instruction .instructionindiv .instructionpositionorange img {
+    background-color: orange;
+    padding: 16px 15px;
+}
+
+.instruction .green h3 {
+    color: rgba(65, 209, 21, 0.719);
+}
+
+.instruction .blue h3{
+    color: rgba(0, 153, 255, 0.849);    
+}
+
+.instruction .orange h3{
+    color: orange;
+}
+
+.instruction .green{
+    border-bottom: 1px solid rgb(168, 168, 168, .6);
+}
+
+.instruction .blue{
+    border-bottom: 1px solid rgb(168, 168, 168, .6);
+}
+
+.boxlorem{
+    
+    width: 80px;
+    height: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instruction .instructionindiv .boxgreen{
+    border: solid 1px rgba(65, 209, 21, 0.719);
+}
+
+.instruction .instructionindiv .boxblue{
+    border: solid 1px rgba(0, 153, 255, 0.849);
+}
+
+.instruction .instructionindiv .boxorange{
+    border: solid 1px orange;
+}
+
+.instruction .instructionindiv .boxgreen p{
+    color:rgba(65, 209, 21, 0.719)
+}
+
+.instruction .instructionindiv .boxblue p{
+    color: rgba(0, 153, 255, 0.849);
+}
+
+.instruction .instructionindiv .boxorange p{
+    color: orange;
+}
+
+@media (min-width: 1024px){
+    .padding-container{
+        padding-left: calc((100% - 1200px) / 2);
+        padding-right: calc((100% - 1200px) / 2);
+    }
+    
+    .instruction h2{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .alinginstruction{
+        display: flex;
+    }
+    
+    .instruction .instructionindiv .instructionposition{
+        flex-direction: column-reverse;
+    }
+
+    .instruction .instructionindiv .instructionposition p{
+        font-size: 15px;
+    }
+
+    .instruction .green {
+        border-bottom: none;
+    }
+
+    .instruction .blue {
+        border-bottom: none;
+    }
+
+    .instruction .instructionindiv h3 {
+        border-bottom: 1px solid rgba(168, 168, 168, .6);
+    }
+
+}

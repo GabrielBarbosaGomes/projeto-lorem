@@ -1,0 +1,74 @@
+.report {
+    background-color: rgb(168, 168, 168, .3);
+    padding: 27px 20px;
+    margin: 0px 24px;
+}
+
+.report .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.report .formulario label{
+    padding: 0px;
+    position: static;
+    z-index: 0;
+    font-size: 13px;
+    padding-bottom: 6px;
+    color: rgb(116 116 116)
+}
+
+.report .formulario input {
+    border: none;
+    padding: 10px;
+}
+
+.report .formulario label:hover {
+    color: rgba(0, 153, 255, 0.849);
+}
+
+.report .buttonform {
+    background: #00a1ffeb;
+    width: 224px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+    margin-left: 9px
+}
+
+.buttonform button{
+    color: white;
+    border: none;
+    background: #00a1ffeb;
+    width: 224px;
+    height: 40px;
+}
+
+@media (min-width: 1024px){
+    .formreport {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .report {
+        width: 23%;
+        margin-left: calc((100% - 1200px) / 2);
+        margin-right: calc((100% - 1200px) / 2);
+        
+    }
+
+    .report .buttonform{
+        margin-bottom: 24px;
+        margin-top: 42px;
+        margin-left: 27px
+    }
+
+    .report .formulario label{
+        padding-bottom: 20px;
+    }
+}

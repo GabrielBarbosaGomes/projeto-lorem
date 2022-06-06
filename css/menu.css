@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0px 0px;
+}
+
+header {
+    top: 0px;
+    position: fixed;
+    background-color: #448ac6;
+    width: 100%;
+    height: 80px;
+    padding-top: 15px;
+    z-index: 2000;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+}
+
+.itensmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+body .menu .itensmenu h1 {
+  display: none;
+  
+}
+
+nav {
+    background-color: rgba(16, 16, 16, .5);
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: -350px;
+    transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
+ul {
+    list-style: none;
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+img {
+    width: 40px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(176, 224, 230);
+    color: black;
+}
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu .itensmenu .buttonli {
+    background: black;
+    height: 38px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+}
+
+@media (min-width: 1024px){
+    .menu .itensmenu{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    body .menu .itensmenu h1 {
+        display: block;
+    }
+
+    body .menu .itensmenu img {
+        width: 103px;
+    }
+
+    .menu .itensmenu .listmenu img {
+        display: none;
+    }
+
+    a{
+        
+    }
+
+    .menu .itensmenu .listmenu nav {
+        left: 0;
+        background-color: rgba(0, 0, 0, 0);
+        width: none;
+        height: none;
+        position: static;
+        transition:none;
+    }
+
+    .menu .itensmenu .listmenu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        position: static;
+        margin-left: 200px;
+    }
+
+    .menu .itensmenu .buttonli {
+        background: rgba(0,0,0,.8);
+    }
+}
+
+@media (min-width: 1440px) {
+    .padding-container{
+        padding-left: calc((100% - 1200px) / 2);
+        padding-right: calc((100% - 1200px) / 2);
+    }
+}
